@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOUGNI Sanna : Science du Numérique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="bg-slate-950">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 card-glass border-b border-slate-800 px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold spy-red text-white px-3 py-1 rounded">MOUGNI Sanna</div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#accueil" class="hover:text-red-500 transition">Profil</a>
+            <a href="#formation" class="hover:text-red-500 transition">Formation</a>
+            <a href="#competences" class="hover:text-red-500 transition">Compétences</a>
+            <a href="#projets" class="hover:text-red-500 transition">Dossiers</a>
+            <a href="#jeu" class="hover:text-red-500 transition font-bold text-yellow-500">Anya Game</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="min-h-screen flex flex-col justify-center items-center pt-24 px-6 text-center">
+        <div class="mb-6 p-1 bg-red-700 rounded-full animate-pulse">
+            <div class="bg-slate-900 rounded-full p-4">
+                <span class="text-6xl">👩‍💻</span>
+            </div>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Étudiante en Science du Numérique</h1>
+        <p class="text-xl text-slate-400 mb-4 max-w-2xl">
+            Université Catholique de Lille | Passionnée par l'IA, l'IoT et l'Électronique.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+            <span class="badge">DÉTERMINÉE</span>
+            <span class="badge">MOTIVÉE</span>
+            <span class="badge">WAKU WAKU</span>
+            <span class="badge">MULTILINGUE</span>
+        </div>
+        <p class="text-slate-300 italic max-w-xl mb-8">
+            "Intelligente, motivée et dotée d'un excellent relationnel, je m'épanouis dans l'apprentissage continu et le travail d'équipe."
+        </p>
+        <div class="flex space-x-4">
+            <a href="#formation" class="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-lg font-semibold transition">Parcours</a>
+            <a href="#jeu" class="bg-slate-800 hover:bg-slate-700 text-white px-8 py-3 rounded-lg font-semibold transition border border-slate-600">Jouer</a>
+        </div>
+    </section>
+
+    <!-- Education & Bio -->
+    <section id="formation" class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-3xl font-bold mb-8 flex items-center">
+                    <span class="mr-3">🎓</span> Cursus Académique
+                </h2>
+                <div class="space-y-6">
+                    <div class="border-l-2 border-red-700 pl-6 relative">
+                        <div class="absolute w-4 h-4 bg-red-700 rounded-full -left-[9px] top-1"></div>
+                        <h3 class="text-xl font-bold">Licence Science du Numérique (L1)</h3>
+                        <p class="text-red-500 font-semibold">Université Catholique de Lille</p>
+                        <p class="text-slate-400 text-sm mt-1">En cours - Apprentissage des bases de l'informatique, électronique et algorithmique.</p>
+                    </div>
+                    <div class="border-l-2 border-slate-700 pl-6 relative">
+                        <div class="absolute w-4 h-4 bg-slate-700 rounded-full -left-[9px] top-1"></div>
+                        <h3 class="text-xl font-bold">Baccalauréat Général</h3>
+                        <p class="text-slate-400 font-semibold">Spécialités SES & Anglais LLCER</p>
+                        <p class="text-slate-500 text-sm mt-1">Mention Assez Bien. Développement d'une forte culture analytique et linguistique.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-8 flex items-center">
+                    <span class="mr-3">🌍</span> Langues (Polyglotte)
+                </h2>
+                <div class="grid grid-cols-1 gap-4">
+                    <div class="flex justify-between items-center bg-slate-800 p-3 rounded-lg">
+                        <span class="font-bold">Français & Amazigh</span>
+                        <span class="text-yellow-500">Maternel</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-800 p-3 rounded-lg">
+                        <span class="font-bold">Anglais</span>
+                        <span class="text-green-500">Niveau B2</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-800 p-3 rounded-lg">
+                        <span class="font-bold">Espagnol</span>
+                        <span class="text-blue-500">Niveau B1</span>
+                    </div>
+                    <div class="flex justify-between items-center bg-slate-800 p-3 rounded-lg">
+                        <span class="font-bold">Arabe</span>
+                        <span class="text-slate-400">Niveau A1</span>
+                    </div>
+                </div>
+                <p class="mt-6 text-slate-400 italic">"Passionnée par la découverte de nouveaux horizons et l'apprentissage de nouvelles langues."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="competences" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Spécialisations Techniques</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="card-glass p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4">🔌</div>
+                    <h3 class="font-bold uppercase tracking-widest text-sm">Hardware</h3>
+                    <p class="text-slate-400 text-xs mt-2">Arduino, Raspberry Pi, Électronique</p>
+                </div>
+                <div class="card-glass p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="font-bold uppercase tracking-widest text-sm">IA & Data</h3>
+                    <p class="text-slate-400 text-xs mt-2">Machine Learning, Intelligence Artificielle</p>
+                </div>
+                <div class="card-glass p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4">💻</div>
+                    <h3 class="font-bold uppercase tracking-widest text-sm">Web Dev</h3>
+                    <p class="text-slate-400 text-xs mt-2">HTML5, CSS3, Architecture Web</p>
+                </div>
+                <div class="card-glass p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4">🤝</div>
+                    <h3 class="font-bold uppercase tracking-widest text-sm">Soft Skills</h3>
+                    <p class="text-slate-400 text-xs mt-2">Relationnel, Travail d'équipe, Pédagogie</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="jeu" class="py-20 px-6 bg-slate-950">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Anya's Mission: Peanut Hunter</h2>
+            <p class="text-slate-400 mb-8">Aidez Anya à collecter des <span class="text-yellow-500 font-bold">cacahuètes</span> mais évitez les <span class="text-red-400 font-bold">manuels scolaires</span> !</p>
+            
+            <div id="game-ui" class="mb-4 flex justify-between items-center max-w-[600px] mx-auto px-4">
+                <div class="text-xl">Score: <span id="score-val" class="text-yellow-500 font-bold">0</span></div>
+                <button id="start-btn" class="bg-red-700 hover:bg-red-800 px-6 py-2 rounded font-bold transition">START MISSION</button>
+            </div>
+
+            <div id="game-container">
+                <canvas id="gameCanvas"></canvas>
+                <div id="game-overlay" class="absolute inset-0 flex items-center justify-center bg-black/70 hidden">
+                    <div class="text-center p-8">
+                        <h3 class="text-3xl font-bold mb-4 text-white">MISSION TERMINÉE</h3>
+                        <p id="final-score-text" class="text-xl mb-6">Score : 0</p>
+                        <button onclick="resetGame()" class="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 rounded font-bold transition">REESSAYER</button>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4 text-sm text-slate-500">Contrôles : Flèches Clavier ou Tactile</p>
+        </div>
+    </section>
+
+    <!-- Projects / Experience -->
+    <section id="projets" class="py-20 px-6 bg-slate-900/30">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">Dossiers & Expériences</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Projet 1 -->
+                <div class="card-glass overflow-hidden rounded-2xl group">
+                    <div class="h-40 bg-red-900/20 flex items-center justify-center group-hover:bg-red-900/40 transition duration-500">
+                        <span class="text-5xl">✈️</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Site Web Agence de Voyage</h3>
+                        <p class="text-slate-400 mb-4">Conception intégrale en HTML et CSS. Mise en avant de destinations et interface utilisateur responsive.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-slate-800 px-2 py-1 rounded text-[10px] font-bold">HTML5</span>
+                            <span class="bg-slate-800 px-2 py-1 rounded text-[10px] font-bold">CSS3</span>
+                            <span class="bg-slate-800 px-2 py-1 rounded text-[10px] font-bold">UI DESIGN</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Expérience 2 -->
+                <div class="card-glass overflow-hidden rounded-2xl group">
+                    <div class="h-40 bg-blue-900/20 flex items-center justify-center group-hover:bg-blue-900/40 transition duration-500">
+                        <span class="text-5xl">📚</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Aide au Devoir & Tutorat</h3>
+                        <p class="text-slate-400 mb-4">Accompagnement de classes du primaire au lycée en Anglais, Français et Mathématiques.</p>
+                        <div class="flex gap-2">
+                            <span class="bg-slate-800 px-2 py-1 rounded text-[10px] font-bold">PÉDAGOGIE</span>
+                            <span class="bg-slate-800 px-2 py-1 rounded text-[10px] font-bold">COMMUNICATION</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-800 text-center">
+        <div class="mb-4 flex justify-center space-x-6 text-slate-400">
+            <a href="https://www.linkedin.com/in/sanna-mougni"><span>LinkedIn</span></a>
+            <a href="https://github.com/sanna-del"><span>GitHub</span></a>
+            <span>Contact</span>
+        </div>
+        <p class="text-slate-500 text-sm italic">"Donner le meilleur de soi-même, chaque jour." - Waku Waku!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
